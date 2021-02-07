@@ -1,2 +1,20 @@
+[![PyPI](https://img.shields.io/pypi/v/gpt3-api.svg)](https://pypi.org/project/gpt3-api/)
+
 # gpt3_api
-Модуль для работы с GPT-3 API от Roughs Team
+**gpt3_api** – Python модуль для работы с GPT-3 API от Roughs Team
+
+```python
+import gpt3_api
+
+token = 'ваш токен от roughs.ru/gpt'
+
+gpt = gpt3_api.Generator(token)
+reuslt = gpt.send('Однажды, в студенную зимнюю пору')
+print(reuslt.text)
+```
+
+Установка
+------------
+    $ pip3 install gpt3-api
+    или
+    $ pip3 install git+https://github.com/buvanenko/gpt3_api.git
