@@ -15,6 +15,4 @@ print(reuslt.text)
 
 Установка
 ------------
-    $ pip3 install gpt3-api
-    или
     $ pip3 install git+https://github.com/buvanenko/gpt3_api.git
