@@ -1,5 +1,3 @@
-[![PyPI](https://img.shields.io/pypi/v/gpt3-api.svg)](https://pypi.org/project/gpt3-api/)
-
 # gpt3_api
 **gpt3_api** – Python модуль для работы с GPT-3 API от Roughs Team
 
